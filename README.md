@@ -6,7 +6,7 @@
 [![LICENSE](https://img.shields.io/github/license/jenkins-x/jx-cli.svg)](https://github.com/jenkins-x/jx-cli/blob/master/LICENSE)
 [![Slack Status](https://img.shields.io/badge/slack-join_chat-white.svg?logo=slack&style=social)](https://slack.k8s.io/)
 
-`jx-cli` is an experimental new small modular CLI for Jenkins X
+`jx-cli` is an experimental new small modular CLI for Jenkins X 3.x alpha 
 
 ## Commands
 
