@@ -7,7 +7,7 @@ require (
 	github.com/jenkins-x/jx-helpers v1.0.62
 	github.com/jenkins-x/jx-kube-client v0.0.8
 	github.com/jenkins-x/jx-logging v0.0.11
-	github.com/jenkins-x/jx/v2 v2.1.145
+	github.com/jenkins-x/jx/v2 v2.1.149
 	github.com/jenkins-x/lighthouse v0.0.818 // indirect
 	github.com/mattn/go-colorable v0.1.6 // indirect
 	github.com/pkg/errors v0.9.1
