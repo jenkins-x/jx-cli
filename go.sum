@@ -38,6 +38,7 @@ code.gitea.io/sdk/gitea v0.12.0 h1:hvDCz4wtFvo7rf5Ebj8tGd4aJ4wLPKX3BKFX9Dk1Pgs=
 code.gitea.io/sdk/gitea v0.12.0/go.mod h1:z3uwDV/b9Ls47NGukYM9XhnHtqPh/J+t40lsUrR6JDY=
 code.gitea.io/sdk/gitea v0.12.1 h1:bMgjEqPnNX/i6TpVwXwpjJtFOnUSuC9P6yy/jjy8sjY=
 code.gitea.io/sdk/gitea v0.12.1/go.mod h1:z3uwDV/b9Ls47NGukYM9XhnHtqPh/J+t40lsUrR6JDY=
+code.gitea.io/sdk/gitea v0.13.0/go.mod h1:z3uwDV/b9Ls47NGukYM9XhnHtqPh/J+t40lsUrR6JDY=
 contrib.go.opencensus.io/exporter/aws v0.0.0-20180906190126-dd54a7ef511e/go.mod h1:uu1P0UCM/6RbsMrgPa98ll8ZcHM858i/AD06a9aLRCA=
 contrib.go.opencensus.io/exporter/ocagent v0.4.12/go.mod h1:450APlNTSR6FrvC3CTRqYosuDstRB9un7SOx2k/9ckA=
 contrib.go.opencensus.io/exporter/ocagent v0.6.0 h1:Z1n6UAyr0QwM284yUuh5Zd8JlvxUGAhFZcgMJkMPrGM=
@@ -809,6 +810,7 @@ github.com/jenkins-x/go-scm v1.5.166 h1:Vll72da+RuWiNhOo5H1XQVfaIYfk4KXAJn2fHNwy
 github.com/jenkins-x/go-scm v1.5.166/go.mod h1:wJgj7PfgsCs+YAXC0vEj43g48HKf94apSyza62ADxKY=
 github.com/jenkins-x/golang-jenkins v0.0.0-20180919102630-65b83ad42314 h1:kyBMx/ucSV92S+umX/V6DDaPNynlFFOM9MGJWApltoU=
 github.com/jenkins-x/golang-jenkins v0.0.0-20180919102630-65b83ad42314/go.mod h1:C6j5HgwlHGjRU27W4XCs6jXksqYFo8OdBu+p44jqQeM=
+github.com/jenkins-x/jx v1.3.1119 h1:yArkuyBqpklDSWaYT8zg0nhdVe6uVQeZRGP2jc2tjI4=
 github.com/jenkins-x/jx-api v0.0.13/go.mod h1:/TyG05VMeX2hydFPHh6nDfPPXTBCQaFCuet/pdPvjUA=
 github.com/jenkins-x/jx-api v0.0.17 h1:DXfR76lH3s7K2CaSJBzq/S7zRtKFfbKpnNyY4n8plUQ=
 github.com/jenkins-x/jx-api v0.0.17/go.mod h1:QKLHk4VzI+sDBPSzN4K+QdEjNIBnCHS3DKY5YbGeCdY=
@@ -824,6 +826,8 @@ github.com/jenkins-x/jx-logging v0.0.11 h1:t4T653u6oy4SJ2VYlrY5rIobr16jJS9Gf8RWl
 github.com/jenkins-x/jx-logging v0.0.11/go.mod h1:mjEejiArk2Mk+J+72/YcSKGo9bZlJ/LwKYjMgAiv+G4=
 github.com/jenkins-x/jx/v2 v2.1.145 h1:AfjnHsXUYHQrPTHgSQz6LcBed0KXCAZ00PqGno3gwsg=
 github.com/jenkins-x/jx/v2 v2.1.145/go.mod h1:O8WXBjll+5UMxivEykrq6xlRmENDzY9QUD60bcnw6OI=
+github.com/jenkins-x/jx/v2 v2.1.150 h1:f20ik6CUHB6ZrbVPNQrwGlE7sV0S7e+EzwkhIfq+2dw=
+github.com/jenkins-x/jx/v2 v2.1.150/go.mod h1:6cqNADzkHPJzBAtxWRPaAENY0lZJa+Xcf9BDoYnpzUk=
 github.com/jenkins-x/lighthouse v0.0.783 h1:mY9TbhVQmNsoZvTcDYFwZRGryAP1tFkyb9bZRZnJqfE=
 github.com/jenkins-x/lighthouse v0.0.783/go.mod h1:YQrNm8iYd2CbYKEw/uuN2O4xHp19xMSRnl4rRVOf4vc=
 github.com/jenkins-x/lighthouse v0.0.818 h1:BlboNSwBB4d5bmMl2kWoZKLoQIe8u9YptBbPrZnc8ps=
