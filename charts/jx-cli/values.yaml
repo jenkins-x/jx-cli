@@ -1,6 +1,6 @@
 image:
   repository: gcr.io/jenkinsxio/jx-cli
-  tag: 3.0.407
+  tag: 3.0.408
   pullPolicy: IfNotPresent
 
 replicaCount: 1
