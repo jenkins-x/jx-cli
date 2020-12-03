@@ -249,6 +249,7 @@ github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99/go.mod h1:1lJo3i
 github.com/jenkins-x/go-scm v1.5.191/go.mod h1:pTp8HHrCEVGs24H/8Cy+X/CDXFlKv9VC6zmrXBYNkfE=
 github.com/jenkins-x/jx-api/v4 v4.0.10 h1:CJLdVv8esIonmAQ+DptZWPz/JaLruZDSxICRht9vxnI=
 github.com/jenkins-x/jx-api/v4 v4.0.10/go.mod h1:3n+xwDoSuALVUSlIUj8nK105k7hqP5HoTh7cch/FScc=
+github.com/jenkins-x/jx-api/v4 v4.0.11/go.mod h1:3n+xwDoSuALVUSlIUj8nK105k7hqP5HoTh7cch/FScc=
 github.com/jenkins-x/jx-helpers/v3 v3.0.28 h1:3fShMYVy7r313Nc6aKgyNJIXyT4vdZ7z2pWHN8vVtds=
 github.com/jenkins-x/jx-helpers/v3 v3.0.28/go.mod h1:hzWZN1H9nPJMIiDdgfQ6Nops1Oo+KwKxmU1ATBdqYGI=
 github.com/jenkins-x/jx-kube-client/v3 v3.0.1 h1:zMnxoLRXJJ85PAd9OVPlgXT5T8xHgbmxSMhpYPTF5mw=
