@@ -273,6 +273,7 @@ github.com/jenkins-x/jx-helpers/v3 v3.0.28 h1:3fShMYVy7r313Nc6aKgyNJIXyT4vdZ7z2p
 github.com/jenkins-x/jx-helpers/v3 v3.0.28/go.mod h1:hzWZN1H9nPJMIiDdgfQ6Nops1Oo+KwKxmU1ATBdqYGI=
 github.com/jenkins-x/jx-helpers/v3 v3.0.31 h1:K2wLgl52GEhgTOXop/PF+qdABO6CRJpZ+Dhav1ZetDM=
 github.com/jenkins-x/jx-helpers/v3 v3.0.31/go.mod h1:nmXx3EyNNco3C3BOumzKysDMgz3YQuGtG7PxS+1KPSI=
+github.com/jenkins-x/jx-helpers/v3 v3.0.39/go.mod h1:nmXx3EyNNco3C3BOumzKysDMgz3YQuGtG7PxS+1KPSI=
 github.com/jenkins-x/jx-kube-client/v3 v3.0.1 h1:zMnxoLRXJJ85PAd9OVPlgXT5T8xHgbmxSMhpYPTF5mw=
 github.com/jenkins-x/jx-kube-client/v3 v3.0.1/go.mod h1:0CYp1ACEgSmOxul1bx5qbZgQGEcyAeGdBOBa+u62zZY=
 github.com/jenkins-x/jx-logging/v3 v3.0.0/go.mod h1:bOYlj+Cdd9v7/vDXjkwlUylxGs5sfQJvYnuYbCL0IrY=
