@@ -3,8 +3,8 @@ module github.com/jenkins-x/jx-cli
 require (
 	github.com/blang/semver v3.5.1+incompatible
 	github.com/cpuguy83/go-md2man v1.0.10
-	github.com/jenkins-x/jx-api/v4 v4.0.21
-	github.com/jenkins-x/jx-helpers/v3 v3.0.62
+	github.com/jenkins-x/jx-api/v4 v4.0.22
+	github.com/jenkins-x/jx-helpers/v3 v3.0.64
 	github.com/jenkins-x/jx-kube-client/v3 v3.0.1
 	github.com/jenkins-x/jx-logging/v3 v3.0.3
 	github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
@@ -13,8 +13,8 @@ require (
 	github.com/spf13/cobra v1.0.0
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.6.1
-	k8s.io/api v0.19.2
-	k8s.io/apimachinery v0.19.2
+	k8s.io/api v0.20.2
+	k8s.io/apimachinery v0.20.2
 	k8s.io/client-go v11.0.1-0.20190805182717-6502b5e7b1b5+incompatible
 	sigs.k8s.io/kustomize/kyaml v0.10.5
 
