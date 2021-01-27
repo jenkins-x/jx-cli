@@ -1,0 +1,38 @@
+{{- if .Capabilities.APIVersions.Has "jenkins.io/v1/Release" }}
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-01-27T19:54:39Z"
+  deletionTimestamp: null
+  name: '{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}'
+spec:
+  commits:
+  - author:
+      email: rawlingsj80@gmail.com
+      name: James Rawlings
+    branch: master
+    committer:
+      email: noreply@github.com
+      name: GitHub
+    message: 'chore: lets try and use bigger machine'
+    sha: 257cf44463afc9eba55c938441c37940a9940082
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    message: |
+      fix: upgrade to version 0.0.182
+
+      from: https://github.com/jenkins-x/jx-project.git
+    sha: 846042754a38ced58733d793497e06256809de80
+  gitHttpUrl: https://github.com/jenkins-x/jx-cli
+  gitOwner: jenkins-x
+  gitRepository: jx-cli
+  name: '{{ .Chart.Name }}'
+  version: 3.1.177
+status: {}
+ 
+{{- end }}
