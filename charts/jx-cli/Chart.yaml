@@ -2,7 +2,7 @@ apiVersion: v2
 name: jx-cli
 description: Jenkins X next gen cloud CI / CD platform for Kubernetes
 home: https://jenkins-x.io/
-version: 0.0.1
+version: 3.1.192
 appVersion: 3.0.0
 icon: https://jenkins-x.github.io/jenkins-x-website/img/profile.png
 sources:
