@@ -1,0 +1,45 @@
+{{- if .Capabilities.APIVersions.Has "jenkins.io/v1/Release" }}
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-01-30T08:10:39Z"
+  deletionTimestamp: null
+  name: '{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}'
+spec:
+  commits:
+  - author:
+      email: 27856297+dependabot-preview[bot]@users.noreply.github.com
+      name: dependabot-preview[bot]
+    branch: master
+    committer:
+      email: noreply@github.com
+      name: GitHub
+    message: |-
+      chore(deps): bump github.com/stretchr/testify from 1.6.1 to 1.7.0
+
+      Bumps [github.com/stretchr/testify](https://github.com/stretchr/testify) from 1.6.1 to 1.7.0.
+      - [Release notes](https://github.com/stretchr/testify/releases)
+      - [Commits](https://github.com/stretchr/testify/compare/v1.6.1...v1.7.0)
+
+      Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+    sha: 7f75224f525ecf63870285c2aa24db8b3fb33afd
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: root
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: root
+    message: |
+      fix: upgrade to version 0.0.541
+
+      from: https://github.com/jenkins-x/jx-gitops.git
+    sha: 9996d951bc4a1e8ac2625125e8392a10cc918869
+  gitHttpUrl: https://github.com/jenkins-x/jx-cli
+  gitOwner: jenkins-x
+  gitRepository: jx-cli
+  name: '{{ .Chart.Name }}'
+  version: 3.1.198
+status: {}
+ 
+{{- end }}
