@@ -1,0 +1,41 @@
+{{- if .Capabilities.APIVersions.Has "jenkins.io/v1/Release" }}
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-02-12T05:37:27Z"
+  deletionTimestamp: null
+  name: '{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}'
+spec:
+  commits:
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    message: |
+      fix: upgrade to version 0.1.0
+
+      from: https://github.com/jenkins-x/jx-secret.git
+    sha: aec0057d1b5019479bb255a91cff8c98fe72e0a3
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    message: |
+      chore: upgrade jenkins-x/jx-cli to version 0.0.57
+
+      from: https://github.com/jenkins-x/jx-verify.git
+    sha: 28afe4310a88af170681cb5e6a14632327be329c
+  gitHttpUrl: https://github.com/jenkins-x/jx-cli
+  gitOwner: jenkins-x
+  gitRepository: jx-cli
+  name: '{{ .Chart.Name }}'
+  version: 3.1.242
+status: {}
+ 
+{{- end }}
