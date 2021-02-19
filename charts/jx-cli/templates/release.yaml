@@ -1,0 +1,63 @@
+{{- if .Capabilities.APIVersions.Has "jenkins.io/v1/Release" }}
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-02-19T14:58:26Z"
+  deletionTimestamp: null
+  name: '{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}'
+spec:
+  commits:
+  - author:
+      email: james.strachan@gmail.com
+      name: James Strachan
+    branch: master
+    committer:
+      email: james.strachan@gmail.com
+      name: James Strachan
+    message: |
+      fix: add a concise version output option
+    sha: a64b6ac859ce325203efb5ab96a8d63cda54aff9
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    message: |
+      chore: upgrade jenkins-x/jx-cli to version 0.0.189
+
+      from: https://github.com/jenkins-x/jx-project.git
+    sha: 8f68c4d47df649fd8c7e4e765f8bc40f4e45c143
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot-test
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot-test
+    message: |
+      fix: upgrade to version 0.0.237
+
+      from: https://github.com/jenkins-x/jx-promote
+    sha: fec36b59bbc3f9fa1ad6dd67acc8a387461cbfc1
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: root
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: root
+    message: |
+      chore: upgrade jenkins-x/jx-cli to version 0.2.2
+
+      from: https://github.com/jenkins-x/jx-gitops.git
+    sha: 1ebbcdd2cf4eb709687ce725e38eecfdee6f5aff
+  gitHttpUrl: https://github.com/jenkins-x/jx-cli
+  gitOwner: jenkins-x
+  gitRepository: jx-cli
+  name: '{{ .Chart.Name }}'
+  version: 3.1.265
+status: {}
+ 
+{{- end }}
