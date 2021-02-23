@@ -1,0 +1,171 @@
+{{- if .Capabilities.APIVersions.Has "jenkins.io/v1/Release" }}
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-02-23T17:41:24Z"
+  deletionTimestamp: null
+  name: '{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}'
+spec:
+  commits:
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    message: |
+      chore: upgrade jenkins-x/jx-cli to version 0.0.191
+
+      from: https://github.com/jenkins-x/jx-project.git
+    sha: a706c921072ab07915ebcbb1ade957c126fe53b2
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot-test
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot-test
+    message: |
+      fix: upgrade to version 0.0.240
+
+      from: https://github.com/jenkins-x/jx-promote
+    sha: 6ad46ab846a9d0306e4de9d564f0bcc89768a201
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    message: |
+      chore: upgrade jenkins-x/jx-cli to version 0.0.109
+
+      from: https://github.com/jenkins-x/jx-pipeline.git
+    sha: d0ef42c05b41aa8f2eff1f4e10ebeae067c48947
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: root
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: root
+    message: |
+      chore: upgrade jenkins-x/jx-cli to version 0.2.8
+
+      from: https://github.com/jenkins-x/jx-gitops.git
+    sha: ce68a912419ffe95dea4511d9ff0c358227f8ba2
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot-test
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot-test
+    message: |
+      fix: upgrade to version 0.0.239
+
+      from: https://github.com/jenkins-x/jx-promote
+    sha: f0e86d3b867d959a63639cb6a0ccf38a6307b49c
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    message: |
+      chore: upgrade jenkins-x/jx-cli to version 0.0.108
+
+      from: https://github.com/jenkins-x/jx-pipeline.git
+    sha: 2e62b7b28dda429865eb77d2ba7b155953a36c3c
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: root
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: root
+    message: |
+      chore: upgrade jenkins-x/jx-cli to version 0.2.7
+
+      from: https://github.com/jenkins-x/jx-gitops.git
+    sha: f730364f6235fd93a9f1eed24feff0de50bdca1f
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    message: |
+      chore: upgrade jenkins-x/jx-cli to version 0.0.190
+
+      from: https://github.com/jenkins-x/jx-project.git
+    sha: c2b076c1a877bba6cee884e3a4ecbb3242fdaaab
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    message: |
+      chore: upgrade jenkins-x/jx-cli to version 0.0.107
+
+      from: https://github.com/jenkins-x/jx-pipeline.git
+    sha: 1e4272c902263d4627d04b2ff03953b088d7eaec
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot-test
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot-test
+    message: |
+      fix: upgrade to version 0.0.238
+
+      from: https://github.com/jenkins-x/jx-promote
+    sha: edbeb5e19ee46598c347146a2ff9f42107a2cf91
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: root
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: root
+    message: |
+      chore: upgrade jenkins-x/jx-cli to version 0.2.6
+
+      from: https://github.com/jenkins-x/jx-gitops.git
+    sha: 635f9b7b4fa7c975e52b3a506342e96a444dfb9c
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    message: |
+      chore: upgrade jenkins-x/jx-cli to version 0.0.70
+
+      from: https://github.com/jenkins-x/jx-verify.git
+    sha: 5209d36ea470a1f53c127875d57e1b6a10e942da
+  - author:
+      email: james.strachan@gmail.com
+      name: James Strachan
+    branch: master
+    committer:
+      email: james.strachan@gmail.com
+      name: James Strachan
+    message: |
+      fix: upgrade deps
+    sha: 9035e91ea7cd45e78e568c88aede2719ed5849f2
+  gitHttpUrl: https://github.com/jenkins-x/jx-cli
+  gitOwner: jenkins-x
+  gitRepository: jx-cli
+  name: '{{ .Chart.Name }}'
+  version: 3.1.276
+status: {}
+ 
+{{- end }}
