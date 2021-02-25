@@ -1,0 +1,53 @@
+{{- if .Capabilities.APIVersions.Has "jenkins.io/v1/Release" }}
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-02-25T18:15:25Z"
+  deletionTimestamp: null
+  name: '{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}'
+spec:
+  commits:
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    message: |
+      fix: upgrade to version 0.1.4
+
+      from: https://github.com/jenkins-x/jx-secret.git
+    sha: 651c27a578d0741ae61807c74c8c2461524fa8a6
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    message: |
+      fix: upgrade to version 0.1.3
+
+      from: https://github.com/jenkins-x/jx-secret.git
+    sha: 5e8ae440ef6d2cf98869643bf7b050a2976d4d37
+  - author:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    branch: master
+    committer:
+      email: jenkins-x@googlegroups.com
+      name: jenkins-x-bot
+    message: |
+      chore: upgrade jenkins-x/jx-cli to version 0.0.110
+
+      from: https://github.com/jenkins-x/jx-pipeline.git
+    sha: 8a55eb6f6a1c621f1d81b2dcc591a748534ffdbc
+  gitHttpUrl: https://github.com/jenkins-x/jx-cli
+  gitOwner: jenkins-x
+  gitRepository: jx-cli
+  name: '{{ .Chart.Name }}'
+  version: 3.1.281
+status: {}
+ 
+{{- end }}
