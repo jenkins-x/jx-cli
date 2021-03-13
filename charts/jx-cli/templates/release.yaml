@@ -1,0 +1,37 @@
+{{- if .Capabilities.APIVersions.Has "jenkins.io/v1/Release" }}
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-03-13T12:42:20Z"
+  deletionTimestamp: null
+  name: '{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}'
+spec:
+  commits:
+  - author:
+      email: rawlingsj80@gmail.com
+      name: James Rawlings
+    branch: master
+    committer:
+      email: rawlingsj80@gmail.com
+      name: James Rawlings
+    message: |
+      fix: GHA trigger on PR
+    sha: 69cb0cf2e0284dca61596af7526953e21da19298
+  - author:
+      email: rawlingsj80@gmail.com
+      name: James Rawlings
+    branch: master
+    committer:
+      email: rawlingsj80@gmail.com
+      name: James Rawlings
+    message: |
+      chore: enable multi platform tests for validating plugin mechanism
+    sha: 290e4691d35ff12753cca07663de69a951cc565a
+  gitHttpUrl: https://github.com/jenkins-x/jx-cli
+  gitOwner: jenkins-x
+  gitRepository: jx-cli
+  name: '{{ .Chart.Name }}'
+  version: 3.1.308
+status: {}
+ 
+{{- end }}
