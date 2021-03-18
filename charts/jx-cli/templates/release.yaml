@@ -1,0 +1,33 @@
+{{- if .Capabilities.APIVersions.Has "jenkins.io/v1/Release" }}
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2021-03-18T22:02:05Z"
+  deletionTimestamp: null
+  name: '{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}'
+spec:
+  commits:
+  - author:
+      email: 27856297+dependabot-preview[bot]@users.noreply.github.com
+      name: dependabot-preview[bot]
+    branch: master
+    committer:
+      email: noreply@github.com
+      name: GitHub
+    message: |-
+      chore(deps): bump github.com/jenkins-x/jx-helpers/v3
+
+      Bumps [github.com/jenkins-x/jx-helpers/v3](https://github.com/jenkins-x/jx-helpers) from 3.0.89 to 3.0.90.
+      - [Release notes](https://github.com/jenkins-x/jx-helpers/releases)
+      - [Commits](https://github.com/jenkins-x/jx-helpers/compare/v3.0.89...v3.0.90)
+
+      Signed-off-by: dependabot-preview[bot] <support@dependabot.com>
+    sha: baa106b65fd8c153bb4d8df2e338fa360b5a3549
+  gitHttpUrl: https://github.com/jenkins-x/jx-cli
+  gitOwner: jenkins-x
+  gitRepository: jx-cli
+  name: '{{ .Chart.Name }}'
+  version: 3.1.325
+status: {}
+ 
+{{- end }}
